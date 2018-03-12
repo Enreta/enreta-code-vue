@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export async function postSubmitCode(code) {
   try {
-    const url = '/v1/api/gcc';
+    const url = '/en-code/v1/api/gcc';
     let res = await axios.post(url, {});
     return res.data;
   } catch (e) {
@@ -13,7 +13,7 @@ export async function postSubmitCode(code) {
 
 export async function postGetUrl(code) {
   try {
-    const url = '/v1/api/code_store';
+    const url = '/en-code/v1/api/code_store';
     let res = await axios.post(url, {});
     return res.data;
   } catch (e) {
