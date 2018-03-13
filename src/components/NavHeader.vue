@@ -1,6 +1,10 @@
 <template>
   <div class="header">
+<<<<<<< HEAD
     *+ 页头组件
+=======
+    **** 页头组件
+>>>>>>> aab6c19fa9dd876ef870159642c09b1039e12731
   </div>
 </template>
 
