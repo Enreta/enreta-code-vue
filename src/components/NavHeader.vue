@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    * 页头组件
+    **** 页头组件
   </div>
 </template>
 
