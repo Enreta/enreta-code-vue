@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    * 页尾组件
+    ******* 页尾组件
   </div>
 </template>
 
