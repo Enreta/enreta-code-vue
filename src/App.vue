@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div class="container">
+    <router-view class="container"/>
   </div>
 </template>
 
@@ -14,4 +14,8 @@
 </script>
 
 <style>
+  .container {
+    height: 100%;
+    overflow: hidden;
+  }
 </style>

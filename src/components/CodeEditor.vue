@@ -1,13 +1,12 @@
 <template>
   <div class="code-editor">
-    <textarea class="form-control" rows="10"
+    <textarea class="form-control"
               placeholder="在这里输入你的代码" v-model="editorContent.text"></textarea>
   </div>
 </template>
 
 <script>
 
-  import 'bootstrap/dist/css/bootstrap.min.css'
   export default {
     name: "code-editor",
     props:['editorContent']
@@ -16,6 +15,13 @@
 
 <style scoped>
   .code-editor {
-    max-width: 800px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .code-editor textarea {
+    height: 100%;
+    width: 100%;
+    resize: none;
   }
 </style>
